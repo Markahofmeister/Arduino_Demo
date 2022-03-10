@@ -1,3 +1,7 @@
+# Below are a bunch of file types that change frequently and we don't really care about, like object files and executables used for code compilation and running.
+
+# This is the template for C because Arduino code is C-based. 
+
 # Prerequisites
 *.d
 
