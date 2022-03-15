@@ -1,24 +1,24 @@
+int LED_outputPin = 0;
+int delayPeriod = 500;
 
-/*
- * declare output pin to blink LED. If we need to change it, it will be a simple swap up here.
- */
-
- 
-
-/*
- * Setup function will run once, and we will use it to: 
- * 1. intialize LED output pin
- * 2. initialize the Serial Monitor
- */
 void setup() {
-  
+  // put your setup code here, to run once:
+
+  pinMode(LED_outputPin, OUTPUT);
+  Serial.begin(9600);
+
 }
-
-/*
- * Loop function will run forever. Once the LED is intialized in the setup function, we turn it on and off here.
- */
-
 void loop() {
+
+  digitalWrite(LED_outputPin, HIGH);
+  delay(delayPeriod);
+  Serial.print("LED State ");
+  Serial.println(LED_ouputPin);
+  digitalWrite(LED_outputPin, LOW);
+  delay(delayPeriod);
+  Serial.print("LED State ");
+  Serial.println(LED_ouputPin);
+  
   
 
 }
