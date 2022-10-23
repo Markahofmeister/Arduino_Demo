@@ -4,7 +4,7 @@
  * @brief a sketch to use the smooth-LED function and output the value to the serial monitor.
  * The fancy "@"'s used in the comments are Doxygen syntax, which can be used to generate HTML pages from your comments. You may see these in other programmers' files.
  * Date of creation: 3/9/2022
- * Last modified: 3/10/2022
+ * Last modified: 10/23/2022
  */
 
 
